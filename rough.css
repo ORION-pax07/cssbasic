@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN&family=Whisper&family=Yeseva+One&display=swap');
+
+header {
+  border-bottom: 3px solid #000;
+}
+
+body {
+  background: #ff0000;
+}
+
+#top-stories {
+  width: 400px;
+  margin: auto;
+}
+
+#site-title {
+  font-family: 'Yeseva One', sans-serif;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  word-spacing: 2px;
+  font-size: large;
+}
+
+article {
+  width: 100%;
+  display: contents;
+  padding: 10px;
+  
+}
+
+.more-link {
+  font-style: italic;
+}
+
+body > main > section {
+  padding: 40px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 10);
+  text-shadow: 5px 5px 10px #000;
+}
+
+body > main > section img {
+  display: block;
+  margin: auto;
+}
