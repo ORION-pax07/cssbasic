@@ -18,6 +18,11 @@ body {
   font-weight: bolder;
 }
 
+
+p:hover{
+  font-size: 32px;
+}
+
 a {
   text-decoration: none;
 }
