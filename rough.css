@@ -13,6 +13,11 @@ body {
   margin: auto;
 }
 
+#top-stories:hover{
+  box-shadow: 20px 0px 30px rgba(0,0,0,70);
+  background-color: darkgray;
+}
+
 #site-title {
   font-family: 'Yeseva One', sans-serif;
   font-weight: bolder;
@@ -20,7 +25,7 @@ body {
 
 
 p:hover{
-  font-size: 32px;
+  font-size: 25px;
 }
 
 a {
@@ -49,6 +54,8 @@ body > main > section {
   border: 2px solid black;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 10);
   text-shadow: 5px 5px 10px #000;
+  border-radius: 15px;
+  transition: box-shadow 0.5s , background-color 1s;
 }
 
 body > main > section img {
